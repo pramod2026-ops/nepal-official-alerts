@@ -1,0 +1,103 @@
+:root {
+  --text: #1a1a1a;
+  --text-muted: #5a5a5a;
+  --bg: #ffffff;
+  --accent: #0c447c;
+  --warn-bg: #fcebeb;
+  --warn-text: #791f1f;
+  --border: #dddddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    system-ui,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+header,
+main,
+footer {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+h2 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+#contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-list li {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.contact-call {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+}
+
+.contact-meta {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.contact-meta.unverified {
+  color: var(--warn-text);
+  background: var(--warn-bg);
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent);
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

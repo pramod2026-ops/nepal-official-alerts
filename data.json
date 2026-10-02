@@ -1,0 +1,33 @@
+{
+  "national_contacts": [
+    {
+      "name": "Disaster hotline (auto-routes to your district)",
+      "number": "1234",
+      "source": "Ministry of Home Affairs",
+      "source_url": "https://rescue.opmcm.gov.np",
+      "verified_on": ""
+    },
+    {
+      "name": "Police",
+      "number": "100",
+      "source": "Nepal Police",
+      "source_url": "https://rescue.opmcm.gov.np",
+      "verified_on": ""
+    },
+    {
+      "name": "Ambulance",
+      "number": "102",
+      "source": "Ministry of Health and Population",
+      "source_url": "https://rescue.opmcm.gov.np",
+      "verified_on": ""
+    },
+    {
+      "name": "NDRRMA",
+      "number": "1155",
+      "source": "National Disaster Risk Reduction and Management Authority",
+      "source_url": "https://rescue.opmcm.gov.np",
+      "verified_on": ""
+    }
+  ],
+  "alerts": []
+}
